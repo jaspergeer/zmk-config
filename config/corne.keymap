@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none   &kp EXCL          &kp AT          &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp MINUS        &kp EQUAL          &trans
-&trans  &kp LEFT_BRACKET  &kp LPAR        &kp GRAVE  &none     &none        &none      &none     &kp BACKSLASH    &kp RPAR         &kp RIGHT_BRACKET  &trans
-&trans  &none             &kp LEFT_BRACE  &none      &none     &none        &none      &none     &none            &kp RIGHT_BRACE  &none              &none
-                                          &trans     &none     &trans       &trans     &none     &trans
+&none   &kp EXCL          &kp AT    &kp HASH        &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS       &kp KP_MULTIPLY  &kp MINUS  &kp EQUAL          &trans
+&trans  &kp LEFT_BRACKET  &kp LPAR  &kp LEFT_BRACE  &kp GRAVE  &kp TILDE    &none      &kp BACKSLASH  &kp RIGHT_BRACE  &kp RPAR   &kp RIGHT_BRACKET  &trans
+&trans  &none             &none     &none           &none      &none        &none      &none          &none            &none      &none              &none
+                                    &trans          &none      &trans       &trans     &none          &trans
             >;
         };
 
