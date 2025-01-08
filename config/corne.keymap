@@ -107,10 +107,10 @@
 
         wm2 {
             bindings = <
-&trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans
-&trans  &trans  &trans  &kp LA(LS(LEFT))  &trans  &trans    &trans  &trans  &kp LA(LS(RIGHT))  &trans  &trans  &trans
-&trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans
-                        &trans            &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans                &trans                    &trans    &trans  &trans                     &trans                 &trans  &trans  &trans
+&trans  &trans  &trans  &kp LA(LEFT_BRACKET)  &kp LA(LS(LEFT_BRACKET))  &trans    &trans  &kp LS(LA(RIGHT_BRACKET))  &kp LA(RIGHT_BRACKET)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                &trans                    &trans    &trans  &trans                     &trans                 &trans  &trans  &trans
+                        &trans                &trans                    &trans    &trans  &trans                     &trans
             >;
         };
 
