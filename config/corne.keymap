@@ -40,10 +40,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T                      &kp Y      &kp U  &kp I      &kp O    &kp P          &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F  &kp G                      &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp APOSTROPHE
-&kp LEFT_ALT    &kp Z  &kp X  &kp C     &kp V  &kp B                      &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH      &kp ESCAPE
-                              &kp LGUI  &mo 1  &hold_tap_layer 3 ENTER    &kp SPACE  &mo 2  &kp RCTRL
+&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T                      &kp Y                                 &kp U  &kp I      &kp O    &kp P          &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F  &kp G                      &kp H                                 &kp J  &kp K      &kp L    &kp SEMICOLON  &kp APOSTROPHE
+&kp LEFT_ALT    &kp Z  &kp X  &kp C     &kp V  &kp B                      &kp N                                 &kp M  &kp COMMA  &kp DOT  &kp SLASH      &kp ESCAPE
+                              &kp LGUI  &mo 1  &hold_tap_layer 3 ENTER    &hold_tap SPACE RA(LC(LS(LEFT_GUI)))  &mo 2  &kp RCTRL
             >;
         };
 
