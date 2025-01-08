@@ -107,18 +107,18 @@
 
         wm2 {
             bindings = <
-&trans  &trans  &trans  &trans                &trans  &trans    &trans  &trans  &trans                 &trans  &trans  &trans
-&trans  &trans  &trans  &kp LA(LEFT_BRACKET)  &trans  &trans    &trans  &trans  &kp LA(RIGHT_BRACKET)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                &trans  &trans    &trans  &trans  &trans                 &trans  &trans  &trans
-                        &trans                &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &kp LA(LS(LEFT))  &trans  &trans    &trans  &trans  &kp LA(LS(RIGHT))  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans  &trans             &trans  &trans  &trans
+                        &trans            &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         wm3 {
             bindings = <
-&none  &none  &kp LA(W)  &none  &kp LA(R)  &none    &none      &none      &none      &none      &none  &none
-&none  &none  &kp LA(S)  &none  &none      &none    &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)  &none  &none
-&none  &none  &none      &none  &kp LA(V)  &none    &none      &none      &none      &none      &none  &none
+&none  &none  &kp LA(W)  &none  &kp LA(R)  &none    &none      &none      &none      &none      &kp LA(MINUS)  &kp LA(PLUS)
+&none  &none  &kp LA(S)  &none  &none      &none    &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)  &none          &none
+&none  &none  &none      &none  &kp LA(V)  &none    &none      &none      &none      &none      &none          &none
                          &none  &none      &none    &none      &none      &none
             >;
         };
