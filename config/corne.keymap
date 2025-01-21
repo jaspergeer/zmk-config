@@ -81,7 +81,7 @@
         nav {
             bindings = <
 &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6          &kp F7    &kp F8  &kp F9     &kp F10  &none
-&mo 7  &none   &none   &none   &none   &none     &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &none    &none
+&mo 8  &none   &none   &none   &none   &none     &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &none    &none
 &none  &none   &none   &none   &none   &none     &none           &none     &none   &none      &none    &none
                        &none   &none   &none     &mo 7           &mo 5     &mo 6
             >;
@@ -107,10 +107,10 @@
 
         wm2 {
             bindings = <
-&trans          &trans  &trans  &trans                &trans  &trans    &trans  &trans  &trans                 &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &kp LA(LEFT_BRACKET)  &none   &trans    &trans  &none   &kp LA(RIGHT_BRACKET)  &trans  &trans  &trans
-&trans          &trans  &trans  &trans                &trans  &trans    &trans  &trans  &trans                 &trans  &trans  &trans
-                                &trans                &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans                &trans  &trans    &trans  &trans  &trans                 &trans  &trans  &trans
+&none   &trans  &trans  &kp LA(LEFT_BRACKET)  &none   &trans    &trans  &none   &kp LA(RIGHT_BRACKET)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                &trans  &trans    &trans  &trans  &trans                 &trans  &trans  &trans
+                        &trans                &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -120,6 +120,15 @@
 &none  &none  &kp LA(S)  &none  &none      &none    &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)  &none          &none
 &none  &none  &none      &none  &kp LA(V)  &none    &none      &none      &none      &none      &none          &none
                          &none  &none      &none    &none      &none      &none
+            >;
+        };
+
+        wm4 {
+            bindings = <
+&trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans  &trans                     &trans  &trans  &trans
+&trans  &trans  &trans  &kp LA(LS(LEFT_BRACKET))  &trans  &trans    &trans  &trans  &kp LS(LA(RIGHT_BRACKET))  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans  &trans                     &trans  &trans  &trans
+                        &trans                    &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
