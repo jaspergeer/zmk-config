@@ -89,10 +89,10 @@
 
         bt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans      &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans
-&none   &trans  &trans  &trans  &trans  &trans    &trans      &trans      &trans      &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans        &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans
+&none   &trans  &trans  &trans  &trans  &trans    &trans      &trans        &trans        &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans      &trans        &trans
             >;
         };
 
